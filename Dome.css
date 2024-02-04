@@ -1,0 +1,118 @@
+.card-services{
+    position: relative;
+    bottom: 180px;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.border-card{
+    border:none;
+}
+
+.card-img, .card-img-top {
+     border-top-left-radius: 0; 
+     border-top-right-radius: 0;
+}
+.number{
+    position: relative;
+    background-color: rgb(224, 131, 18);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 50%;
+   height: 80px;;
+   width:80px;
+   color:white;
+   margin:0 auto;
+   margin-bottom: 30px;
+
+ 
+
+}
+
+.myimg{
+   display:block;
+    position:absolute;
+    width:100%;
+     height:60%; 
+     right:0px; 
+     z-index: -1; 
+   /* top:10px; */
+
+}
+.size{
+    position:absolute;
+    z-index: -1;
+  
+   
+}
+.hiimage{
+    position:absolute;
+    width:40%;
+    height: 100%;
+    right: 0%;
+    top:0;
+}
+.mycontainer{
+position:relative;
+height: 100%;
+width:100%;
+}
+.solutionleft{
+    position:absolute;
+    width:60%;
+    height: 100%;
+
+}
+.img-left{
+   
+    right:0;
+}
+ /*section Our Motivated Team********************************************************/
+
+.teamlist{
+    position: absolute;
+    width:100%;
+    height:80%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display:none;
+    overflow-x: hidden;
+}
+.myhover:hover .teamlist{
+    display:block;
+}
+.teamIcons {  
+   position:relative;
+    left:20%;
+   top:50%; 
+   list-style: none;
+  
+}
+
+.teamIcons li {
+    
+    display: inline-block;
+    padding: 0px 5px;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(180, 232, 23);
+}
+.teamIcons li .fa-brands{
+    text-align: center;
+    color:white;
+}
+ /*endddddddddddddddddddddddddd section Our Motivated Team********************************************************/
+ .img-section1{
+    width:100vw;
+    height: 100vh;
+
+ }
+ .text-section1{
+    position:absolute;
+    height:50%;
+    right:12%;
+    top:30%;
+    left:12%;
+}

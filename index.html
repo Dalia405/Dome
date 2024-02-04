@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dome</title>
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--  -->
+    <!-- cdn fontawesom -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  -->
+    <link rel="stylesheet" href="./Dome.css">
+</head>
+
+
+    <!-- header -->
+    <header class="fixed-top">
+        <!-- div header top -->
+        <div class="bg-black py-2 d-none d-lg-block">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <a href="#"><i class="fab fa-facebook-f  mx-2"></i></a>
+                        <a href="#"><i class="fab fa-twitter  mx-2"></i></a>
+                        <a href="#"><i class="fab fa-instagram  mx-2"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in  mx-2"></i></a>
+                    </div>
+                    <div class="col-lg-6 text-end">
+                        <a><i class="icon-chat text-white me-2">1111111</i></a>
+                        <a><i class="icon-envelope text-white me-2">@mail.com</i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- /div header top -->
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+               
+
+                <a class="navbar-brand" href="#">
+                    <img src="./Images/logo.svg">
+                </a>
+                <button class="navbar-toggler  d-lg-none d-md-flex justify-content-end" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                    
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button"
+                                aria-expanded="false">Pages</a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Sevices Detail</a></li>
+                                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                                <li><a class="dropdown-item" href="#">Project</a></li>
+                                <li><a class="dropdown-item" href="#">Portfolio Single</a></li>
+                                <li><a class="dropdown-item" href="#">Faq's</a></li>
+                                <li><a class="dropdown-item" href="#">Team</a></li>
+                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="# " data-bs-toggle="dropdown" role="button"
+                                aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Services Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item bg-warning p-2 d-lg-block d-none">
+                            <a>
+                                <span class="fas fa-phone fa-rotate-90 text-white"></span>
+                                <span class="text-white">Call Now</span>
+                            </a>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+       
+            </div>
+        </nav> 
+        <!-- /navbar -->
+    </header>
+    <!--  -->
+    <section >
+        <div class="">
+            <!-- <div class="row">
+                <div class="col">
+                    <h6 class="text-warning">Where Can We Help You</h6>
+                    <h2 class="fw-bolder">Welcome To Construction Real Solutions.</h2>
+                    <p class="text-secondary">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern
+                        and
+                        creative
+                       .</p>
+
+                </div>
+            </div> -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" style="position:relative;">
+                    <img src="./Images/home-banner-2.jpg" class="d-block img-section1"  >
+                   <div class="row justify-content-center text-section1" >
+                    <div class="col-lg-8 text-center py-10 " >
+                            <div class=" text-white mb-3">Power Customization</div>
+                            <h1 class="display-1 text-white mb-3">We Are Best Builders In The world </h1>
+                            <p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <div class="pt-3">
+                                <a class="btn btn-primary me-3" href="#">
+                                    Explore More
+                                </a>
+                                <a class="btn btn-light" href="#">
+                                    Get In Touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/Images/home-banner-1.jpg" class="d-block img-section1"  alt="...">
+                    <div class="row justify-content-center text-section1" >
+                        <div class="col-lg-8 text-center py-10 " >
+                                <div class=" text-white mb-3">Power Customization</div>
+                                <h1 class="display-1 text-white mb-3">We Are Best Builders In The world </h1>
+                                <p class=" text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <div class="pt-3">
+                                    <a class="btn btn-primary me-3" href="#">
+                                        Explore More
+                                    </a>
+                                    <a class="btn btn-light" href="#">
+                                        Get In Touch
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+
+        </div>
+    </section>
+    <!-- section 2 -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <h6 class="text-warning">Where Can We Help You</h6>
+                            <h2 class="fw-bolder">Welcome To Construction Real Solutions.</h2>
+                            <p class="text-secondary">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern
+                                and
+                                creative
+                                multipurpose design you can use it as a startups.</p>
+                            <div class="text-secondary">
+                                <p>Beautiful and easy to understand UI, professional animations</p>
+                                <p>Theme advantages are pixel perfect design & clear code delivered</p>
+                                <p>Theme advantages are pixel perfect design & clear code delivered</p>
+                                <p>Theme advantages are pixel perfect design & clear code delivered</p>
+                                <p>Unlimited power and customization possibilities</p>
+                            </div>
+                            <button type="button" class="btn btn-warning text-white" style="border-radius: 0; ">Read
+                                More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col col-6">
+                            <img src="./Images/about-1.jpg" class="img-fluid">
+                        </div>
+                        <div class="col col-6">
+                            <img src="./Images/about-2.jpg" class="img-fluid">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+    <!-- section 3 -->
+    <section style="background-color: rgba(0, 0, 0, 0.2);">
+
+        <div class="container">
+            <div class="row" style="align-items: center !important;">
+                <div class="col-lg-6">
+                    <img src="./Images/about-3.png" style="max-width: 100%;">
+                </div>
+
+                <div class="col-lg-6">
+                    <h4 class="text-warning">Explore The Features</h4>
+                    <h1 class="fw-bolder">Project Commitment</h1>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                    <button type="button" class="btn btn-warning text-white" style="border-radius: 0; ">Read
+                        More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--  -->
+    <!-- section 4 -->
+    <section class="services py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <h4 class="text-warning">Our Work </h4>
+                    <h3 class="fw-bolder mb-4">Explore Recent Projects </h3>
+                    <p class="text-secondary w-100 text-wrap ">Dome is a HTML5 template based on Sass and Bootstrap 5
+                        with
+                        modern and creative multipurpose
+                        design you can use it as a startups.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-12">
+                    <div class="card border-card">
+                        <img src="./Images/project-1.jpg" class="card-img-top " alt="...">
+                        <div class="card-body card-services p-4">
+                            <h5 class="card-title">Pxdraft Studio</h5>
+                            <p class="card-text">Our solution for your business. </p>
+                            <a href="#" class="btn btn-warning">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-card">
+                        <img src="./Images/project-2.jpg" class="card-img-top " alt="...">
+                        <div class="card-body card-services p-4">
+                            <h5 class="card-title">Pxdraft Studio</h5>
+                            <p class="card-text">Our solution for your business. </p>
+                            <a href="#" class="btn btn-warning">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-card">
+                        <img src="./Images/project-3.jpg" class="card-img-top " alt="...">
+                        <div class="card-body card-services p-4">
+                            <h5 class="card-title">Pxdraft Studio</h5>
+                            <p class="card-text">Our solution for your business. </p>
+                            <a href="#" class="btn btn-warning">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="services py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <h4 class="text-warning">Our Work Process</h4>
+                    <h3 class="fw-bolder mb-4">How Does Dome Works</h3>
+                    <p class="text-secondary w-100 text-wrap ">Dome is a HTML5 template based on Sass and Bootstrap 5
+                        with modern and creative
+                        multipurpose design you can use it as a startups. </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- gap-sm-4-->
+                <!-- 1 -->
+                <div class="col-lg-4  mb-3 ">
+                    <div class="text-center bg-info p-5 border-card">
+                        <div class="number text-center">
+                            <h2>1</h2>
+                        </div>
+                        <h4>General Contract</h4>
+                        <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been
+                            standard dummy.</p>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 mb-3">
+                    <div class="text-center bg-info p-5">
+                        <div class="number text-center">
+                            <h2>1</h2>
+                        </div>
+                        <h4>General Contract</h4>
+                        <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been
+                            standard dummy.</p>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <!-- <div class="col-lg-4 text-center bg-info p-5">
+                <div class="number text-center"><h2 >1</h2></div>
+                <h4>General Contract</h4>
+                <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been standard dummy.</p>
+            </div> -->
+                <div class="col-lg-4 mb-3">
+                    <div class="text-center bg-info p-5">
+                        <div class="number text-center">
+                            <h2>1</h2>
+                        </div>
+                        <h4>General Contract</h4>
+                        <p>Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been
+                            standard dummy.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+    <!-- section video -->
+    <section>
+        <div class="container ">
+            <img src="./Images/bg-1.jpg" class="img-fluid" />
+            <div class="row justify-content-center">
+                <div class="col-lg-4 text-center text-wrap">
+                    <h2 class="text-white">We Building Everything That Needed You</h2>
+                    <div class="number bg-light">
+                        <a href=""><i class="fas fa-play text-black w-5"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section  -->
+    <section class="services py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <h4 class="text-warning">Our Work </h4>
+                    <h3 class="fw-bolder mb-4">Explore Recent Projects </h3>
+                    <p class="text-secondary w-100 text-wrap ">Dome is a HTML5 template based on Sass and Bootstrap 5
+                        with
+                        modern and creative multipurpose
+                        design you can use it as a startups.</p>
+                </div>
+            </div>
+
+            <div class="row gy-3">
+                <!-- gap3xxxxxxxxxxx -->
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card  ">
+                        <img src="./Images/services-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                do eiusmod tempor incididunt ut labore et</p>
+                            <a href="#" class="btn btn-link text-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./Images/services-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                do eiusmod tempor incididunt ut labore et</p>
+                            <a href="#" class="btn btn-link text-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./Images/services-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                do eiusmod tempor incididunt ut labore et</p>
+                            <a href="#" class="btn btn-link text-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./Images/services-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                do eiusmod tempor incididunt ut labore et</p>
+                            <a href="#" class="btn btn-link text-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./Images/services-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                do eiusmod tempor incididunt ut labore et</p>
+                            <a href="#" class="btn btn-link text-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <img src="./Images/services-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Construction Management</h5>
+                            <p class="card-text text-secondary">Lorem ipsum dolor sit amet consectetur adipiscing elit
+                                do eiusmod tempor incididunt ut labore et</p>
+                            <a href="#" class="btn btn-link text-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-danger" style="overflow-x:hidden;">
+        <div class="">
+            <div class="row">
+                <div class="col-lg-6  bg-warning text-white">
+                    <div class="row justify-content-center p-5 m-lg-3">
+                        <div class="col-lg-7">
+                            <!-- <div class="bg-warning text-white container mw-100 solutionleft">
+                        <div class="m-60"> -->
+                            <h5>Working With Excellent</h5>
+                            <h3>Construction & Engineering Real Solutions.</h3>
+                            <p class="">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and
+                                creative multipurpose design you can use it as a startups.</p>
+                            <div>
+                                <p>Beautiful and easy to understand UI, professional animations</p>
+                                <p>Theme advantages are pixel perfect design & clear code delivered</p>
+                                <p>Theme advantages are pixel perfect design & clear code delivered</p>
+                                <p>Theme advantages are pixel perfect design & clear code delivered</p>
+                                <p>Unlimited power and customization possibilities</p>
+                            </div>
+                            <button type="button" class="btn btn-outline-light text-white"
+                                style="border-radius: 0; ">Read More</button>
+                        </div>
+
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-6 ">
+                    <img src="./Images/bg-2.jpg" class="img-fluid h-100">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section Our Motivated Team-->
+    <section class="py-5 my-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h6 class="text-warning">Our Team</h6>
+                    <h2 class="fw-bolder">Our Motivated Team</h2>
+                    <p class="text-secondary">Dome is a HTML5 template based on Sass and Bootstrap 5 with modern and
+                        creative
+                        multipurpose design you can use it as a startups.</p>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <!-- 1 -->
+                <div class="col-lg-3 col-sm-6 myhover">
+                    <div class="card border-card">
+                        <img src="./Images/team-21.jpg" class="card-img-top " alt="...">
+                        <div class="text-center p-4">
+                            <h5 class="card-title">Nancy Bayers</h5>
+                            <p class="card-text text-secondary">CEO, pxdraft Studio</p>
+                        </div>
+                        <div class="teamlist">
+                            <ul class="teamIcons">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-linkedin"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-3 col-sm-6 myhover">
+                    <div class="card border-card">
+                        <img src="./Images/team-20.jpg" class="card-img-top " alt="...">
+                        <div class="text-center p-4">
+                            <h5 class="card-title">Nancy Bayers</h5>
+                            <p class="card-text text-secondary">CEO, pxdraft Studio</p>
+                        </div>
+                        <div class="teamlist">
+                            <ul class="teamIcons">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-linkedin"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-3 col-sm-6 myhover">
+                    <div class="card border-card">
+                        <img src="./Images/team-19.jpg" class="card-img-top " alt="...">
+                        <div class="text-center p-4">
+                            <h5 class="card-title">Nancy Bayers</h5>
+                            <p class="card-text text-secondary">CEO, pxdraft Studio</p>
+                        </div>
+                        <div class="teamlist">
+                            <ul class="teamIcons">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-linkedin"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-3 col-sm-6  myhover">
+                    <div class="card border-card ">
+                        <img src="./Images/team-18.jpg" class="card-img-top " alt="...">
+                        <div class="text-center p-4">
+                            <h5 class="card-title">Nancy Bayers</h5>
+                            <p class="card-text text-secondary">CEO, pxdraft Studio</p>
+                        </div>
+                        <div class="teamlist">
+                            <ul class="teamIcons">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-linkedin"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--  -->
+
+
+    <!-- section img-->
+    <section style="position:relative; background-color: hsl(25, 64%, 44%);">
+        <div>
+            <section class="statis py-5">
+                <div class="row">
+
+                </div>
+            </section>
+
+            <!-- <div class="bg-danger"style="position:relative ; background-color: hsl(102, 64%, 44%);" > -->
+            <div class="row text-white bg-danger" style="position:absolute;  z-index: 10; width: 100%; ">
+                <!-- class="col-lg-3 col-xs-6 -->
+                <div class="col-lg-3 col-6 text-center">
+                    <i class="fa-brands fa-facebook"></i>
+                    <h1>4506</h1>
+                    <p>Project Complated</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <i class="fa-brands fa-facebook"></i>
+                    <h1>1580</h1>
+                    <p>Work Employed</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <i class="fa-brands fa-facebook"></i>
+                    <h1>9642</h1>
+                    <p>Happy Customers</p>
+                </div>
+
+                <div class="col-lg-3 col-6 text-center">
+                    <i class="fa-brands fa-facebook"></i>
+                    <h1>9642</h1>
+                    <p>Painting Services</p>
+                </div>
+            </div>
+            <!-- </div>  -->
+            <!-- style="position:absolute; top:700%; z-index: -10;" -->
+            <!-- style="position:relative; top:700%; z-index: -10;" not listen-->
+            <img src="./Images/bg-3.jpg" class="img-fluid" alt="...">
+            <!--try delete image-->
+        </div>
+    </section>
+    <!--  -->
+
+
+    <!-- section-->
+    <section class="services py-5">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <h4 class="text-warning">Our Clients Say</h4>
+                    <h3 class="fw-bolder mb-4">Clients Say About Us</h3>
+                    <p class="text-secondary w-100 text-wrap ">Dome is a HTML5 template based on Sass and Bootstrap 5
+                        with
+                        modern and creative multipurpose
+                        design you can use it as a startups.</p>
+                </div>
+            </div>
+
+            <div class="row gy-3 justify-content-center">
+                <!-- 1 -->
+                <div class="col-lg-3  text-center" style="border:1px black solid ;margin-right: 50px;">
+                    <img src="./Images/team-1.jpg" class="card-img-top "
+                        style="width:30%; height:30%; border-radius: 50%;" alt="...">
+                    <div class="card-body p-4 ">
+                        <p>I wanted to hire the best and after looking at several other companies, I knew Jacob was the
+                            perfect guy for the job. He is a true professional.</p>
+                        <h6 class="mb-1">Shoko Mugikura</h6>
+                        <span class="small">Graphic Designer</span>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-lg-3 text-center" style="border:1px black solid ;margin-right: 50px;">
+                    <img src="./Images/team-1.jpg" class="card-img-top "
+                        style="width:30%; height:30%; border-radius: 50%;" alt="...">
+                    <div class="card-body p-4 ">
+                        <p>I wanted to hire the best and after looking at several other companies, I knew Jacob was the
+                            perfect guy for the job. He is a true professional.</p>
+                        <h6 class="mb-1">Shoko Mugikura</h6>
+                        <span class="small">Graphic Designer</span>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-lg-3 text-center" style="border:1px black solid;margin-right: 50px;">
+                    <img src="./Images/team-1.jpg" class="card-img-top "
+                        style="width:30%; height:30%; border-radius: 50%;" alt="...">
+                    <div class="card-body p-4 ">
+                        <p>I wanted to hire the best and after looking at several other companies, I knew Jacob was the
+                            perfect guy for the job. He is a true professional.</p>
+                        <h6 class="mb-1">Shoko Mugikura</h6>
+                        <span class="small">Graphic Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---->
+
+    <!-- section-->
+    <section class="services py-5" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-6 text-center">
+                    <h4 class="text-warning">Our Blogs</h4>
+                    <h3 class="fw-bolder mb-4">Interesting stories</h3>
+                    <p class="text-secondary w-100 text-wrap ">Dome is a HTML5 template based on Sass and Bootstrap 5
+                        with
+                        modern and creative multipurpose
+                        design you can use it as a startups.</p>
+                </div>
+            </div>
+
+            <div class="row gy-2">
+                <!-- 1 -->
+                <div class="col-lg-4 col-md-12">
+                    <img src="./Images/project-1.jpg" class="card-img-top "  alt="...">
+                     <div class="card border-card"> 
+
+                    <div class="card-body card-services p-4 ">
+                        <p class="text-secondary">March 14, 2021</p>
+                        <h5 class="card-title text-warning fw-bolder">I like the body. I like to design everything to do
+                            with the body.</h5>
+                        <p class="card-text text-secondary">Lorem Ipsum is simply dummy text of the printing and...</p>
+                        <a href="#" class="btn btn-link text-warning fw-bolder">Read More</a>
+                    </div>
+                     </div> 
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-4 col-md-12">
+                    <img src="./Images/project-1.jpg" class="card-img-top " alt="...">
+                    <!-- <div class="card border-card"> -->
+                    <div class="card-body card-services p-4">
+                        <p class="text-secondary">March 14, 2021</p>
+                        <h5 class="card-title text-warning fw-bolder">I like the body. I like to design everything to do
+                            with the body.</h5>
+                        <p class="card-text text-secondary">Lorem Ipsum is simply dummy text of the printing and...</p>
+                        <a href="#" class="btn btn-link text-warning fw-bolder">Read More</a>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <!-- 3 -->
+                <div class="col-lg-4 col-md-12">
+                    <img src="./Images/project-1.jpg" class="card-img-top " alt="...">
+                    <!-- <div class="card border-card card-services"> -->
+                    <div class="card-body p-4 card-services">
+                        <p class="text-secondary">March 14, 2021</p>
+                        <h5 class="card-title text-warning fw-bolder">I like the body. I like to design everything to do
+                            with the body.</h5>
+                        <p class="card-text text-secondary">Lorem Ipsum is simply dummy text of the printing and...</p>
+                        <a href="#" class="btn btn-link text-warning fw-bolder">Read More</a>
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!---->
+
+
+
+
+
+
+
+    <!-- cdn bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <!--  -->
+</body>
+
+</html>
